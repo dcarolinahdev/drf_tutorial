@@ -34,6 +34,16 @@ cd tutorial
 python manage.py startapp snippets
 ```
 
+5. Create superuser
 
+```
+python manage.py createsuperuser
+
+Username: admin
+Email address: admin@example.com
+Password: pssw123.
+```
+
+6. Continue coding
 
 Guided from [django-rest-framework](https://www.django-rest-framework.org/tutorial/1-serialization/)
