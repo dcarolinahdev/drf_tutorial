@@ -13,5 +13,10 @@ A serializer class is very similar to a **Django Form class**, and includes simi
 > The **{'base_template': 'textarea.html'}** flag above is equivalent to using widget=widgets.Textarea on a Django Form class. 
 
 ```
-We can actually also save ourselves some time by using the ModelSerializer class, as we'll see later, but for now we'll keep our serializer definition explicit.
+We can actually also save ourselves some time by using the **ModelSerializer class**, as we'll see later, but for now we'll keep our serializer definition explicit.
+
+It's important to remember that **ModelSerializer classes** don't do anything particularly magical, they are simply a shortcut for creating serializer classes:
+
+An automatically determined set of fields.
+Simple default implementations for the **create()** and **update()** methods.
 ```
