@@ -20,3 +20,11 @@ It's important to remember that **ModelSerializer classes** don't do anything pa
 An automatically determined set of fields.
 Simple default implementations for the **create()** and **update()** methods.
 ```
+
+## 3. The views
+
+## 4. The urls
+
+```
+It's worth noting that there are a couple of edge cases we're not dealing with properly at the moment. If we send malformed **json**, or if a request is made with a method that the view doesn't handle, then we'll end up with a **500 "server error"** response. Still, this'll do for now.
+```
