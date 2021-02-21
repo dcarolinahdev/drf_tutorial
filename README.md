@@ -46,4 +46,8 @@ Password: pssw123.
 
 6. Continue coding
 
+- First create your models to work with
+- then create serializer classes
+- then create the views
+
 Guided from [django-rest-framework](https://www.django-rest-framework.org/tutorial/1-serialization/)
